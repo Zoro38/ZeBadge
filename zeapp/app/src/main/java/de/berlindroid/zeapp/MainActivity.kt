@@ -388,7 +388,7 @@ private fun PagePreview(
         )
 
         ZeLazyRow(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = ZeModifier.fillMaxWidth(),
             contentPadding = PaddingValues(horizontal = 2.dp),
             horizontalArrangement = ZeArrangement.End
         ) {
